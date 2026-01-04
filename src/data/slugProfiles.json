@@ -1,0 +1,282 @@
+[
+  {
+    "Name": "Amythistle",
+    "Original?": "No",
+    "Element": "Earth",
+    "Ghoul Form": "Omithistle",
+    "Description": "Gem shooting slug"
+  },
+  {
+    "Name": "Refracent",
+    "Original?": "No",
+    "Element": "Earth",
+    "Ghoul Form": "Necracent",
+    "Description": "Copycat slug"
+  },
+  {
+    "Name": "Makobreaker",
+    "Original?": "No",
+    "Element": "Water",
+    "Ghoul Form": "Megabreaker",
+    "Description": "Charging slug"
+  },
+  {
+    "Name": "Tenasher",
+    "Original?": "No",
+    "Element": "Water",
+    "Ghoul Form": "Menasher",
+    "Description": "Alligator slug"
+  },
+  {
+    "Name": "Spikeshade",
+    "Original?": "No",
+    "Element": "Earth",
+    "Ghoul Form": "Strikeshade",
+    "Description": "Spike shooting slug"
+  },
+  {
+    "Name": "Chlorobite",
+    "Original?": "No",
+    "Element": "Nature",
+    "Ghoul Form": "Chlorofight",
+    "Description": "Chomping slug"
+  },
+  {
+    "Name": "Desertooth",
+    "Original?": "No",
+    "Element": "Water",
+    "Ghoul Form": "Savortooth",
+    "Description": "Water jet slug"
+  },
+  {
+    "Name": "Mantarid",
+    "Original?": "No",
+    "Element": "Earth",
+    "Ghoul Form": "Manteraid",
+    "Description": "Sand wave slug"
+  },
+  {
+    "Name": "Gyrophyll",
+    "Original?": "No",
+    "Element": "Nature",
+    "Ghoul Form": "Pyrokill",
+    "Description": "Spin slug"
+  },
+  {
+    "Name": "Chasm",
+    "Original?": "No",
+    "Element": "Chaos",
+    "Ghoul Form": "Spasm",
+    "Description": "Teleportation slug"
+  },
+  {
+    "Name": "Taranticle",
+    "Original?": "No",
+    "Element": "Nature",
+    "Ghoul Form": "Taransickle",
+    "Description": "8 legged slug"
+  },
+  {
+    "Name": "Mandimesh",
+    "Original?": "No",
+    "Element": "Nature",
+    "Ghoul Form": "Mandisteal",
+    "Description": "Big jaw slug"
+  },
+  {
+    "Name": "Ramstone",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Grimstone",
+    "Description": "Strong hitting slug"
+  },
+  {
+    "Name": "Armashelt",
+    "Original?": "Yes",
+    "Element": "Nature",
+    "Ghoul Form": "Harmashelt",
+    "Description": "Strong hitting slug"
+  },
+  {
+    "Name": "Grenuke",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Greneater",
+    "Description": "Explosive slug"
+  },
+  {
+    "Name": "Hoprock",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Hopjack",
+    "Description": "Explosive slug"
+  },
+  {
+    "Name": "Crystalyd",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Cryscada",
+    "Description": "Drilling slug"
+  },
+  {
+    "Name": "Dirt Urchin",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Dark Urchin",
+    "Description": "Thorn shooting slug"
+  },
+  {
+    "Name": "Sand Angler",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Sand Mangler",
+    "Description": "Sand slug"
+  },
+  {
+    "Name": "Speedstinger",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Doomspiker",
+    "Description": "Fast slug"
+  },
+  {
+    "Name": "Glowbyss",
+    "Original?": "Yes",
+    "Element": "Water",
+    "Ghoul Form": "Gloombyss",
+    "Description": "Bright light slug"
+  },
+  {
+    "Name": "Tormato",
+    "Original?": "Yes",
+    "Element": "Air",
+    "Ghoul Form": "Tempesto",
+    "Description": "Tornado slug"
+  },
+  {
+    "Name": "Firenzar",
+    "Original?": "Yes",
+    "Element": "Fire",
+    "Ghoul Form": "Sirenzar",
+    "Description": "Fire ring slug"
+  },
+  {
+    "Name": "Forgesmelter",
+    "Original?": "Yes",
+    "Element": "Fire",
+    "Ghoul Form": "Gorgesmelter",
+    "Description": "Forge slug"
+  },
+  {
+    "Name": "Lavalynx",
+    "Original?": "Yes",
+    "Element": "Fire",
+    "Ghoul Form": "Lavamander",
+    "Description": "Lava slug"
+  },
+  {
+    "Name": "Flaringo",
+    "Original?": "Yes",
+    "Element": "Fire",
+    "Ghoul Form": "Pyringo",
+    "Description": "Pure fire slug"
+  },
+  {
+    "Name": "Arachnet",
+    "Original?": "Yes",
+    "Element": "Air",
+    "Ghoul Form": "Attacknet",
+    "Description": "Spider slug"
+  },
+  {
+    "Name": "Slicksilver",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Quicksalvo",
+    "Description": "Magnet slug"
+  },
+  {
+    "Name": "Aquabeek",
+    "Original?": "Yes",
+    "Element": "Water",
+    "Ghoul Form": "Aquafreak",
+    "Description": "Water slug"
+  },
+  {
+    "Name": "Hexlet",
+    "Original?": "Yes",
+    "Element": "Chaos",
+    "Ghoul Form": "Vexlet",
+    "Description": "Bad luck slug"
+  },
+  {
+    "Name": "Gazzer",
+    "Original?": "Yes",
+    "Element": "Air",
+    "Ghoul Form": "Spazzer",
+    "Description": "Toxic gas slug"
+  },
+  {
+    "Name": "Geoshard",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Shadowshard",
+    "Description": "Crystalisation slug"
+  },
+  {
+    "Name": "Hoverbug",
+    "Original?": "Yes",
+    "Element": "Air",
+    "Ghoul Form": "Hoverblade",
+    "Description": "Flying slug"
+  },
+  {
+    "Name": "Diggrix",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Terrarix",
+    "Description": "Digging slug"
+  },
+  {
+    "Name": "Thresher",
+    "Original?": "Yes",
+    "Element": "Earth",
+    "Ghoul Form": "Thrasher",
+    "Description": "Sharp Blade slug"
+  },
+  {
+    "Name": "Negashade",
+    "Original?": "Yes",
+    "Element": "Chaos",
+    "Ghoul Form": "Negablade",
+    "Description": "Darkness slug"
+  },
+  {
+    "Name": "Midas",
+    "Original?": "No",
+    "Element": "Chaos",
+    "Ghoul Form": "Sadim",
+    "Description": "Golden slug"
+  },
+  {
+    "Name": "Frostcrawler",
+    "Original?": "Yes",
+    "Element": "Ice",
+    "Ghoul Form": "Frostfang",
+    "Description": "Ice slug"
+  },
+  {
+    "Name": "Slyren",
+    "Original?": "Yes",
+    "Element": "Ice",
+    "Ghoul Form": "Sirench",
+    "Description": "Sleep song slug"
+  },
+  {
+    "Name": "Flopper",
+    "Original?": "Yes",
+    "Element": "Chaos",
+    "Ghoul Form": "Flapper",
+    "Description": "Useful slug"
+  }
+]

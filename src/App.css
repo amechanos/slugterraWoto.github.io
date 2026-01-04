@@ -1,0 +1,49 @@
+/* Desert gradient background */
+body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(45deg, #42392c 10%, #453d33 40%, #361d03 60%, #3a2914 90%);
+  background-size: 400% 400%;
+  animation: desertGradient 15s ease infinite;
+}
+
+@keyframes desertGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Minimalist global button styles */
+button, [type="button"], [type="submit"], [type="reset"], .btn {
+  background: transparent;
+  border: none;
+  padding: 0.35rem 0.6rem;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: color var(--transition-duration, 180ms) var(--transition-ease, ease),
+              background-color var(--transition-duration, 180ms) var(--transition-ease, ease),
+              box-shadow var(--transition-duration, 180ms) var(--transition-ease, ease),
+              transform var(--transition-duration, 180ms) var(--transition-ease, ease);
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(234,156,80,0.12);
+}

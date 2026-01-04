@@ -1,0 +1,88 @@
+
+.site-header {
+  width: 100%;
+  height: auto;
+  padding: 0.75rem 1rem;
+  background: rgba(0,0,0,0.06);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+}
+
+.site-header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--btn-active-bg, #ea9c50);
+  letter-spacing: 0.4px;
+}
+
+.nav-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav-controls button {
+  margin: 0;
+  padding: 0.15rem 0.25rem;
+  border: none;
+  background: transparent;
+  color: var(--btn-active-bg, #ea9c50);
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  transition: color var(--transition-duration, 180ms) var(--transition-ease);
+}
+
+.nav-controls button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -4px;
+  height: 2px;
+  background: currentColor;
+  transition: right var(--transition-duration, 180ms) var(--transition-ease);
+}
+
+.nav-controls button:hover,
+.nav-controls button:focus-visible {
+  color: var(#bba98b);
+}
+
+.nav-controls button:hover::after,
+.nav-controls button:focus-visible::after {
+  right: 0;
+}
+
+.nav-controls button:active,
+.nav-controls button[aria-pressed="true"] {
+  color: var(--btn-active-bg, #ea9c50);
+  opacity: 0.95;
+}
+
+.nav-controls button:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .site-header-inner { padding: 0 0.5rem; }
+  .site-logo { font-size: 1rem; }
+  .nav-controls button { padding: 0.4rem 0.6rem; }
+}
+
+.site-logo {
+    max-height: 6rem;
+}
+
+img {
+    max-height: 6rem;
+}

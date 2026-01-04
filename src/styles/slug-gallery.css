@@ -1,0 +1,174 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    --size: 32ch;
+    --transition-duration: 200ms;
+    --transition-ease: cubic-bezier(0.2, 0.9, 0.3, 1);
+
+    --btn-bg: #999081;
+    --btn-hover-bg: #d7cdb7;
+    --btn-active-bg: #ea9c50;
+    --btn-border: #dcd2c3;
+    --btn-focus-ring: 0 0 0 4px rgba(234,156,80,0.18);
+}
+
+.slug-gallery { 
+    padding: 2rem;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.25rem;
+}
+
+.gallery-header { 
+    width: auto;
+    gap: 0.5rem;
+    margin-bottom: 1rem; 
+}
+
+.gallery-controls { 
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-controls button { 
+    margin: 0; 
+    padding: 0.35rem 0.6rem; 
+    border-radius: 8px; 
+    border: 1px solid rgba(255,255,255,0.06); 
+    background: transparent; 
+    color: inherit;
+    cursor: pointer; 
+    transition: transform var(--transition-duration) var(--transition-ease),
+                box-shadow var(--transition-duration) var(--transition-ease),
+                background-color var(--transition-duration) var(--transition-ease),
+                color var(--transition-duration) var(--transition-ease);
+    will-change: transform, box-shadow;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.gallery-controls button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    background: rgba(255,255,255,0.03);
+    color: var(--btn-hover-bg);
+}
+
+.gallery-controls button:active,
+.gallery-controls button[aria-pressed="true"] {
+    transform: translateY(0) scale(0.98);
+    background: rgba(0,0,0,0.06);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08) inset;
+    color: var(--btn-active-bg);
+}
+
+.gallery-controls button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(234,156,80,0.12);
+}
+
+.gallery-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+
+.slug-grid { 
+    display: grid; 
+    width: 100%;
+    max-width: calc(var(--size) * 3 + 2rem);
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--size)), 1fr)); 
+    gap: 1rem; 
+    justify-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .slug-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .slug-card {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .gallery-header {
+        padding: 0 1rem;
+    }
+
+    .gallery-controls button {
+        flex: 1 1 auto;
+        min-width: 90px;
+    }
+}
+
+.slug-card { 
+    border: 1px solid #caa130; 
+    border-radius: 12px; 
+    padding: 0; 
+    width: var(--size);
+    height: var(--size);
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    background: #4f3f2351; 
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03); 
+    transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.slug-card-body { 
+    padding: 1rem; 
+    width: 100%; 
+    height: 100%; 
+    box-sizing: border-box; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 0.5rem; 
+}
+
+.slug-name { 
+    margin: 0 0 0.5rem 0; 
+    font-size: 1.1rem; 
+}
+
+.slug-meta, .slug-ghoul, .slug-desc { 
+    margin: 0.25rem 0; 
+    color: #dcdad5; 
+    font-size: 0.9rem; 
+}
+
+.slug-card:hover { 
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+    transform: translateY(-6px) scale(1.01);
+    border: 2px solid #e3b844;
+    background: #6d59353c; 
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    :root { --transition-duration: 0ms; }
+    .gallery-controls button,
+    .slug-card { transition: none !important; }
+}
+
+/* Small helper for better stacking on small screens */
+@media (max-width: 600px) {
+    .slug-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+}
